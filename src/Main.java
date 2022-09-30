@@ -25,5 +25,18 @@ public class Main {
                 System.out.println("Установите облегченную версию iOS по ссылке");
             }
         }
+
+        //Задача 3
+        System.out.println("Task 3");
+        int year = 2021;
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+            System.out.println(year + " является високосным");
+        } else {
+            System.out.println(year + " не является високосным");
+        }
+
+        //Задача 4
+        System.out.println("Task 4");
+
     }
 }
